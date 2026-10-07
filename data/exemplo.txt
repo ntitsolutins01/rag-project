@@ -1,0 +1,1 @@
+RAG (Retrieval-Augmented Generation) é uma técnica que combina recuperação de informação com geração de texto. Em vez de depender apenas do conhecimento do modelo, o sistema busca trechos relevantes em uma base de documentos e os entrega ao LLM como contexto. Isso reduz alucinações e permite responder sobre dados privados ou atualizados.

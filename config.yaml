@@ -1,0 +1,27 @@
+llm:
+  provider: anthropic
+  model: claude-sonnet-4-6
+  max_tokens: 1024
+  temperature: 0.2
+
+embeddings:
+  model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+
+chunking:
+  chunk_size: 800      # caracteres por chunk
+  chunk_overlap: 120   # sobreposição entre chunks
+
+vectordb:
+  provider: chroma
+  persist_directory: chroma_db
+  collection_name: documentos
+
+retrieval:
+  top_k: 4
+
+ingestion:
+  data_dir: data
+
+logging:
+  file: logs/app.log
+  level: INFO
