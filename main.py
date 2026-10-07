@@ -7,6 +7,8 @@ Uso:
 """
 import sys
 
+sys.stdout.reconfigure(encoding="utf-8")
+
 from src.api.routes import create_router
 from src.chunking.chunker import chunk_documents
 from src.embeddings.embedder import Embedder
@@ -27,7 +29,7 @@ def build_components():
     )
     retriever = Retriever(embedder, store, config["retrieval"]["top_k"])
     llm_cfg = config["llm"]
-    llm = LLMClient(llm_cfg["model"], llm_cfg["max_tokens"], llm_cfg["temperature"])
+    llm = LLMClient(llm_cfg["model"], llm_cfg["max_tokens"], llm_cfg["effort"])
     return config, logger, embedder, store, retriever, llm
 
 

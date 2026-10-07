@@ -199,6 +199,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 | Documento | Descrição |
 |-----------|-----------|
 | 📖 [Como o RAG funciona](docs/como-funciona.md) | Explicação didática do fluxo completo, diagramas e analogias |
+| ▶️ [Executando localmente](docs/executando-localmente.md) | Passo a passo completo: ingest → ask → serve, o que esperar em cada etapa |
 
 ---
 
