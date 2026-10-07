@@ -200,6 +200,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 |-----------|-----------|
 | 📖 [Como o RAG funciona](docs/como-funciona.md) | Explicação didática do fluxo completo, diagramas e analogias |
 | ▶️ [Executando localmente](docs/executando-localmente.md) | Passo a passo completo: ingest → ask → serve, o que esperar em cada etapa |
+| 🧪 [Testando a API pelo Swagger](docs/testando-api-swagger.md) | Como usar a interface visual para testar /ingest, /ask e /health |
 
 ---
 
